@@ -15,11 +15,11 @@ import javax.swing.JPanel;
 public class MyFirstSwingGUI {
 	public static void main(String[] args) {
 		//1. Create and initialize an object of the JFrame class
-
+		JFrame object = null;
 		//2. Set your JFrame object to be visible
-
+		object.setVisible(true);
 		//3. Run your program. Do you see your window? It's probably very small.
-		
+			
 		//4. Set the default close operation to JFrame.EXIT_ON_CLOSE
 
 		//5. Create and initialize an object of the JPanel class
